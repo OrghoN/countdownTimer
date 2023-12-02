@@ -6,7 +6,8 @@ let secItem = document.querySelector("#sec");
 
 let countDown = () => {
 
-    let futureDate = new Date("2023-11-27T00:00:00.000-05:00");
+    //let futureDate = new Date("2023-11-27T00:00:00.000-05:00");
+        let futureDate = new Date("2023-12-02T18:00:00.000-06:00");
     let currentDate = new Date();
     let myDate = futureDate - currentDate;
     //console.log(myDate);
